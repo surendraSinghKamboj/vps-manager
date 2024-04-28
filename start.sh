@@ -8,7 +8,7 @@ else
 fi
 
 echo "Starting project...."
-npm run next start
+yarn next start
 if [ $? -ne 0 ]; then
     echo "❌ Failed to start project."
     exit 1
